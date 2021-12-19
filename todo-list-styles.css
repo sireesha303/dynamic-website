@@ -1,3 +1,52 @@
-.para{
-    color:green
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container{
+    background-color:#a7bbdb;
+    height:100vh;
+}
+.todo-title{
+    text-align:center;
+    padding:30px;
+    font-size:40px;
+}
+.subtitle{
+    font-size:25px;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+}
+.span-element{
+    font-style:italic;
+}
+.todo-input{
+    height:50px;
+    border-radius:10px;
+    width:50vw;
+    text-align:center;
+    font-size:25px;
+    font-family:"Roboto";
+}
+.button{
+    padding:10px;
+}
+todo-items-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+  margin:100px;
+}
+
+.todo-items-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
 }
