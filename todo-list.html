@@ -7,11 +7,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="todo-list-styles.css"/>
+    <script src="todo-list-script.js" defer></script>
   </head>
   <body>
     <div class="bg-container">
       <h1 class="todo-title">Todo List</h1>
-      <p class="subtitle"><span class="span-element">CREATE</span> Task</p>
+      <p class="subtitle" id="subTitle"><span class="span-element">CREATE</span> Task</p>
       <div class="d-flex flex-row justify-content-center">
         <input type="text" class="todo-input"/>
         <button class="btn btn-primary button ml-3">Add Task</button>
@@ -19,7 +20,8 @@
       <h1 class="todo-items-heading ml-5">
               My <span class="todo-items-heading-subpart">Tasks</span>
       </h1>
-      <ul class="todo-items-container" id="todoItemsContainer"></ul>
+      <ul class="todo-items-container" id="todoItemsContainer">
+      </ul>
     </div>
   </body>
 </html>
